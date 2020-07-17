@@ -1,0 +1,243 @@
+*{outline: none;}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.full_sits_secton_1{
+    margin-bottom: 30px;
+}
+.bg-light{
+    background: #fff !important;
+}
+/*----search bar-----*/
+#search_bar{
+    height: 40px;
+    margin-left: 99px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#search_bar input[placeholder="Search....."]{
+    font-family:'Poppins';
+    font-style: italic;
+}
+#search_bar input[type="text"]{
+    width: 520px;
+    height: 34px;
+    padding: 0 20px;
+    border-radius: 23px;
+    background: #F8F8F8;
+    border: none;
+    position: relative;
+    padding-right: 40px;
+}
+#search_bar input[type="submit"]{
+    width: 25px;
+    height: 25px;
+    margin-left: -38px;
+    text-indent: -99999px;
+    border: none;
+    background: url("icon/search.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    margin-top: 4px;
+}
+/*----search bar-----*/
+.carousel-control-next-icon{
+    padding: 5px;
+    border-radius: 20px;
+}
+.carousel-inner{
+    background-color: #FEEAE9;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.carousel-inner img{
+    width: 85% !important;
+}
+.carousel-item{
+    margin: 50px;
+}
+.slider_img_div h2{
+    font-family:'Poppins';
+    color: #1F1F1F;
+    margin-top: 85px;
+    font-size: 39px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+.slider_img_div p{
+    font-family:'Poppins';
+    font-size: 18px;
+}
+.slider_img_div h3{
+    font-family:'Poppins';
+    color: #FF136F;
+    margin-top: 30px;
+    font-size: 39px;
+    margin-bottom: 25px;
+}
+.slider_img_div a{
+    font-family:'Poppins';
+    font-size: 20px;
+    color: #FFE6F0;
+    background: rgb(255,141,191) !important;
+    background: linear-gradient(175deg, rgba(255,141,191,1) 0%, rgba(255,21,112,1) 100%) !important;
+    border: none;
+}
+#carouselExampleIndicators ol li{
+    transition: all 0.6s;
+    width: 16px;
+    height: 8px;
+    border-radius: 5px;
+    color: azure;
+}
+#carouselExampleIndicators ol .active{
+    width: 36px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: hsl(337, 100%, 54%);
+}
+/*----categori----*/
+.categori{
+    margin-top: 20px;
+}
+.categori h2{
+    font-family:'Poppins';
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+.categori_1{
+    background: linear-gradient(135deg, rgba(255,156,53,1) 0%, rgba(255,208,25,1) 100%); 
+    border-radius: 8px;
+}
+.categori_2{
+    background: linear-gradient(135deg, rgba(255,82,151,1) 0%, rgba(255,25,115,1) 100%); 
+    border-radius: 8px;
+}
+.categori_3{
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(66,137,255,1) 0%, rgba(63,7,248,1) 100%); 
+    border-radius: 8px;
+}
+.categori_section{
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.categori_section h3{
+    width: 60%;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.categori_section img{
+    width: 40%;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+.full_sits_secton_2{
+    background-color: #F8F8F8;
+    padding-bottom: 150px;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .full_sits_secton_2_section_h2{
+    display: inline-block;
+    font-family: 'Poppins';
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .full_sits_secton_2_section_a{
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    color: #FF9D00;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .card-deck .card{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .card-deck .card .card-body .card-title{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: lighter;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .card-deck .card .card-body p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #707070;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .card-deck .card .card-body span{
+    font-family: 'Poppins';
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    font-weight: lighter;
+    display: block;
+}
+.full_sits_secton_2 .full_sits_secton_2_section .card-deck .card .card-body a{
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.subscribe_option{
+    text-align: center;
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.subscribe_option h2{
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: lighter;
+}
+.subscribe_option p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+.subscribe_option_from input[placeholder="Enter your email"]{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: lighter;
+}
+.subscribe_option_from input[type="text"]{
+    border: none;
+    padding: 8px 10px;
+    width: 550px;
+    border-radius: 4px 0 0 4px;
+}
+.subscribe_option_from button{
+    font-family: 'Poppins';
+    font-size: 22px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 4px 4px 0;
+    margin-right: -4px;
+    background: linear-gradient(175deg, rgba(255,141,191,1) 0%, rgba(255,21,112,1) 100%) !important;
+    margin-top: -7px;
+    color: #ffff;
+    font-weight: lighter;
+}
